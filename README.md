@@ -2,7 +2,7 @@
 
 #Guidelines:
 
-- Try not to commit code that doesn't work. If you need to, be sure to comment it out and to include appropriate messages to indicate that it is a working in progress / something that you need help with.
+- Try not to commit code that doesn't work. If you need to, be sure to comment it out and to include appropriate messages to indicate that it is a work in progress / something that you need help with.
   
 **For example:**
   ```
