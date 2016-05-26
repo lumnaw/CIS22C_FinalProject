@@ -36,6 +36,6 @@ For example:
 
   How it should look:
   /** TO-DO
-  **  [x] write some method - Kenny
+**  [x] write some method - Kenny
   **  [] format display
   **/
