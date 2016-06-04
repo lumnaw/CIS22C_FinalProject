@@ -1,40 +1,27 @@
 #ifndef _USER_H
 #define _USER_H
 #include <string>
+#include "Person.h"
 
 class User {
-private:
-	string firstName;
-	string middleName;
-	string lastName;
+protected:
 	string userID;
 	string email;
 	string userName;
 	string password;
-	int age;
-	string birthday;
 	string userType;
 public:
-	User(string, string, string, string, string, string, string, int, string, string);
-	string getFirstName();
-	string getMiddleName();
-	string getLastName();
+	User();
+	User(string, string, string, string, string);
 	string getUserID();
 	string getEmail();
 	string getUserName();
 	string getPassword();
-	int getAge();
-	string getBirthday();
 	string getUserType();
-	void setFirstName(string);
-	void setMiddleName(string);
-	void setLastName(string);
 	void setUserID(string);
 	void setEmail(string);
 	void setUserName(string);
 	void setPassword(string);
-	void setAge(int);
-	void setBirthday(string);
 	void setUserType(string);
 	bool haveBirthday();
 	bool checkUserInfo(string, string);
@@ -43,4 +30,5 @@ public:
 	bool verifyPassword(string);
 	void displayProfile();
 };
+
 #endif
