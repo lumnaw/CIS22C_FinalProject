@@ -5,24 +5,27 @@
 
 class User {
 protected:
-	string userID;
+	Person person;
 	string email;
 	string userName;
 	string password;
 	string userType;
+	int keyValue;
 public:
 	User();
-	User(string, string, string, string, string);
-	string getUserID();
+	User(string, string, string, string, int, Person);
 	string getEmail();
 	string getUserName();
 	string getPassword();
 	string getUserType();
-	void setUserID(string);
+	int getKeyValue();
+	Person getPerson();
 	void setEmail(string);
 	void setUserName(string);
 	void setPassword(string);
 	void setUserType(string);
+	void setKeyValue(int);
+	void setPerson(Person);
 	bool haveBirthday();
 	bool checkUserInfo(string, string);
 	User getCurrUser();
